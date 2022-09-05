@@ -100,6 +100,6 @@ const newWarrant = {
             summary: "",
             fileHash: "Qmc5KovUi3gEdxPckbLp92i7q"
           },
-          
+        ]
     
   }

@@ -4,16 +4,16 @@ import configuration from '../build/contracts/Warrant.json';
 const newWarrant ={
     warrant: [
         {
-        policeStation: "Central Police Station",
-        onDutyOfficer: "Ajay Singh",
-        date: "12-31-2020",
-        victimName: "Harish",
-        victimPhone: "9412345600",
-        accusedName: "Sanjay",
-        subject: "Theft in office",
-        summary: "Lorem simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sLorem  's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and ",
-        fileHash: "Qmc5KovUi3gEdxPckbLp92i7qKN5TGQe6fJJb32M6JogBC"
-      },
+            policeStation: "Central Police Station",
+            onDutyOfficer: "Ajay Singh",
+            date: "12-31-2020",
+            victimName: "Harish",
+            victimPhone: "9412345600",
+            accusedName: "Sanjay",
+            subject: "Theft in office",
+            summary: "Lorem simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sLorem  's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the ",
+            fileHash: "Qmc5KovUi3gEdxPckbLp92i7qKN5TGQe6fJJb32M6JogBC"
+          },
     ]
 }
 const CONTRACT_ADDRESS = configuration.networks['5777'].address;
@@ -46,7 +46,7 @@ const main = async()=> {
     data = newWarrant.warrant[0];
     console.log(data);
     console.log(data.policeStation);
-    // console.log(data.policeStation, data.onDutyOfficer, data.date, data.victimName, data.victimPhone, data.accusedName, data.subject, data.summary, data.fileHash, "");
+    console.log(data.policeStation, data.onDutyOfficer, data.date, data.victimName, data.victimPhone, data.accusedName, data.subject, data.summary, data.fileHash, "");
     // inputValue(data.policeStation, data.onDutyOfficer, data.date, data.victimName, data.victimPhone, data.accusedName, data.subject, data.summary, data.fileHash, "");
 
 }
