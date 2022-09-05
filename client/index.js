@@ -4,15 +4,15 @@ import configuration from '../build/contracts/Warrant.json';
 const newWarrant ={
     warrant: [
         {
-            policeStation: "",
-            onDutyOfficer: "",
-            date: "",
-            victimName: "",
-            victimPhone: "",
-            accusedName: "",
-            subject: "",
-            summary: "",
-            fileHash: "Qmc5KovUi3gEdxPckbLp92i7q"
+            policeStation: "Central Police Station",
+            onDutyOfficer: "Ajay Singh",
+            date: "12-31-2020",
+            victimName: "Harish",
+            victimPhone: "9412345600",
+            accusedName: "Sanjay",
+            subject: "Theft in office",
+            summary: "Lorem simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry'sLorem  's standard a type industry'sLorem  's standard a type   standard a type industry'sLorem  's standard a typ st 'sLdsgf",
+            fileHash: "Qmc5KovUi3gEdxPckbLp92i7qKN5TGQe6fJJb32M6JogBC"
           },
     ]
 }
@@ -51,7 +51,7 @@ const main = async()=> {
     newstr = obj.policeStation + obj.onDutyOfficer + obj.date + obj.victimName 
     + obj.victimPhone + obj.accusedName + obj.subject + obj.summary + obj.fileHash;
     console.log('Size:',newstr.length * 2);
-    inputValue(data.policeStation, data.onDutyOfficer, data.date, data.victimName, data.victimPhone, data.accusedName, data.subject, data.summary, data.fileHash, "");
+    // inputValue(data.policeStation, data.onDutyOfficer, data.date, data.victimName, data.victimPhone, data.accusedName, data.subject, data.summary, data.fileHash, "");
 
 }
 main();
