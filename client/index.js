@@ -126,7 +126,7 @@ const main = async()=> {
     newstr = obj.policeStation + obj.onDutyOfficer + obj.date + obj.victimName 
     + obj.victimPhone + obj.accusedName + obj.subject + obj.summary + obj.fileHash;
     console.log('Size:',newstr.length * 2);
-    // inputValue(data.policeStation, data.onDutyOfficer, data.date, data.victimName, data.victimPhone, data.accusedName, data.subject, data.summary, data.fileHash, "");
+    inputValue(data.policeStation, data.onDutyOfficer, data.date, data.victimName, data.victimPhone, data.accusedName, data.subject, data.summary, data.fileHash, "");
     }
 }
 main();
